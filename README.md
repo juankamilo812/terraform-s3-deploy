@@ -19,3 +19,5 @@ terraform-s3-deploy/
 ├── variables.tf # Variables utilizadas
 ├── terraform.tfvars # Valores de variables
 ├── outputs.tf # Outputs del deployment
+
+<!-- Triggered deploy -->
