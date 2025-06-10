@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
 
-  # Solo usa profile si estás trabajando en local
-  profile = var.profile != "" ? var.profile : null
+  # Esta condición solo aplica el profile si no está vacío
+  profile = length(var.profile) > 0 ? var.profile : null
 }
