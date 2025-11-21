@@ -12,6 +12,8 @@ Este repositorio contiene la definición de infraestructura como código para de
 
 ## 🧩 Estructura
 
+## 🧩 Estructura
+
 terraform-s3-deploy/
 ├── .github/workflows/deploy.yml # CI/CD pipeline
 ├── main.tf # Recursos principales (S3)
@@ -24,3 +26,4 @@ terraform-s3-deploy/
 <!-- Triggered deploy 1 -->
 <!-- Triggered deploy 2 -->
 <!-- Triggered deploy 3 -->
+
